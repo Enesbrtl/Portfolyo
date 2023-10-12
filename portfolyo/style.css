@@ -1,0 +1,216 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.main h1{
+
+    word-spacing: 5px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.main p{
+
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.fa-brands{
+font-size: 30px;    
+margin-inline: 15px;
+transition: 0.5s all;
+
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+    color: blue;
+
+}
+
+
+.container{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 8%;
+}
+
+.content{
+    display: flex;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.person{
+    width: 25%;
+    margin-right: 80px;
+}
+
+.person img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.person-text{
+    width: 75%;
+
+}
+
+/* !yetenekler ve açıklama kısmı */
+.yetenekler{
+    width: 50%;
+    margin-right: 30px;
+
+}
+
+.acıklama{
+    width: 50%;
+}
+/* !Projeler kısmı */
+
+.proje-foto{
+    display: flex;
+}
+
+.foto-2 , .foto-3 , .foto-4 , .foto-5{
+
+    width: 25%;
+    margin-right: 30px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.7s all;
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* !Deneyim ve Eğitim kısmı */
+
+.deneyim{
+
+margin-top: 50px;
+margin-bottom: 30px;
+
+
+}
+/* !Maaliyet Kısmı */
+.maaliyet{
+    width: 25%;
+    margin-inline: 10px;
+}
+
+.maaliyet label{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.maaliyet select{
+    width: 100%;
+    padding: 8px 2px ;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    transform: scale(0.9);
+}
+
+/* !iletişim kısmı */
+.iletisim{
+    width: 50%;
+    margin-right: 30px;
+
+}
+
+.iletisim input,textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+iframe{
+    height: 350px;
+}
+
+.animate{
+
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+@keyframes animate{
+
+    0%{
+        color: white
+    }
+
+   50%{
+    color: blueviolet;
+   }
+
+   100%{
+    color: white;
+   }
+
+/* ! responsive tasarım kısmı */
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
